@@ -1,0 +1,393 @@
+<!-- Fingal Bay N.S.W Wed. 31st Jan. 2024 
+My thanks to Mr. Brad Traversy Boston U.S.A for teaching this framework.
+You are a legend Brad
+https://www.traversymedia.com/  https://www.youtube.com/@TraversyMedia -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Home</title>
+</head>
+
+<body>
+  <div class="navbar-fixed">  
+    <nav class="blue darken-4">
+      <a href="#home" class="brand-logo"><img class="img_push" src="./img/Logo-150x60.png" width="auto" height="60px" alt="PSFM"></a>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <!-- DROPDOWN -->
+            <ul id="about" class="dropdown-content">
+              <li><a href="about.html#about_us">About Us</a></li>
+                <li><a href="about.html#our_vision">Our Vision</a></li>
+                <li><a href="about.html#our_history">Our History</a></li>
+                <li><a href="about.html#our_con">Our Constitution</a></li>
+                <li><a href="about.html#program_policy">Programming and Community Involvement</a></li>
+            </ul>
+            <ul id="sponsor" class="dropdown-content">
+              <li><a href="basponsor.html">Become A Sponsor</a></li>
+              <li><a href="osponsor.html">Our Sonsors</a></li>
+            </ul>
+              <ul id="events" class="dropdown-content">
+                <li><a href="community.html#regular">Regular Events</a></li>
+                <li><a href="community.html#list_yours">List Your Event</a></li>
+                <li><a href="community.html#upcoming">Upcoming Events</a></li>
+                <li><a href="community.html#charity">List Your Charity</a></li>
+              </ul>
+              <ul class="hide-on-med-and-down">
+                <li class="active"><a href="#Home">Home</a></li>
+                <li><a href="#" class="dropdown-trigger" data-activates="about">About<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="#" class="dropdown-trigger" data-activates="events">Community Events<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="#" class="dropdown-trigger" data-activates="sponsor">Sponsors<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+        </div> <!-- end nav-wrapper -->
+      </div> <!--container -->
+    </nav>
+  </div> <!-- end navbar-fixed -->
+    <!-- SIDE NAV -->
+    <ul id="side_about" class="dropdown-content">
+        <li><a href="about.html#about_us">About Us</a></li>
+        <li><a href="about.html#our_vision">Our Vision</a></li>
+        <li><a href="about.html#our_history">Our History</a></li>
+        <li><a href="about.html#our_con">Our Constitution</a></li>
+        <li><a href="about.html#program_policy">Programming and Community Involvement</a></li>
+    </ul>
+    <ul id="side_events" class="dropdown-content">
+        <li><a href="community.html#regular">Regular Events</a></li>
+        <li><a href="community.html#list_yours">List Your Event</a></li>
+        <li><a href="community.html#upcoming">Upcoming Events</a></li>
+        <li><a href="community.html#charity">List Your Charity</a></li>
+      </ul>
+    <ul id="side_sponsor" class="dropdown-content">
+        <li><a href="basponsor.html">Become A Sponsor</a></li>
+        <li><a href="osponsor.html">Our Sonsors</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-nav">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#" class="dropdown-trigger" data-activates="side_about">About<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="#" class="dropdown-trigger" data-activates="side_events">Community Events<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="#" class="dropdown-trigger" data-activates="side_sponsor">Sponsors<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul> 
+<!-- end sidenav -->
+<!-- carousel -->
+<div class="carousel carousel-slider center" id="demo-carousel-content" data-indicators="true" >
+
+  <div class="carousel-fixed-item center">
+    <img class="hide-on-med-and-down" src="./img/Logo-nback.png" alt="PSFM">
+  </div>
+    <a class="carousel-item" href="#one!"><img src="img/slider/inner_light.png" alt="Looking out to sea from the inner lighthouse"></a>
+    <a class="carousel-item" href="#two!"><img src="img/slider/sheet_music-1024x550.png" alt="A picture of sheet music"></a>
+    <a class="carousel-item" href="#three!"><img src="img/slider/bagnalls.png" alt="Bagnalls beach looking towards Nelson Bay"></a>
+    <a class="carousel-item" href="#four!"><img src="img/slider/box_beach.png" alt="A view across Box Beach looking south"></a>
+    <a class="carousel-item" href="#five!"><img src="img/slider/radio_panel_2-1024x550.png" alt="A picture of a studio control panel"></a>
+</div> <!-- end carousel -->
+
+<!-- Text section -->
+<section class="section center">
+  <div class="container">
+    <p class="flow-text">Port Stephens FM is the area&#39s favourite radio station
+    because we play all the great music you know and love from across the decades
+    and across the universe! <p class="flow-text">From Pop, Rock, Easy Listening, Rock &#39n&#39 Roll,
+    Country, Jazz and Blues.</p>
+    <p class="flow-text">We are also passionate about supporting local organisations and events and
+    keeping you up-to-date with community information, news, weather and interviews.</p>
+    <p class="flow-text"><b>PORT STEPHENS FM: HEAR FOR THE MUSIC & HEAR FOR THE COMMUNITY.</b></p>
+</div>
+</section> <!-- end text section -->
+
+<section class="section"> <!-- Buttons -->
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4"> <!-- What's on -->
+          <a href="https://www.example.com" class="btn-large tooltipped blue darken-4 z-depth-5 waves-effect waves-light" data-position="left" data-tooltip="What's On In Port Stephens"><i class="material-icons left">event list</i>What's On</a>
+      </div>
+      <div class="col s12 m4"> <!-- Become a Sponsor -->
+        <a href="basponsor.html" class="btn-large tooltipped red darken-4 z-depth-5 waves-effect waves-light" data-position="top" data-tooltip="Become a Sponsor"><i class="material-icons left">favorite</i>Become a Sponsor</a>
+      </div>
+      <div class="col s12 m4"> <!-- Become a Member -->
+        <a href="membership.html" class="btn-large tooltipped blue darken-4 z-depth-5 waves-effect waves-light" data-position="right" data-tooltip="Become a Member"><i class="material-icons left">person</i>Be Part Of Our Family</a>
+      </div>
+    </div>
+  </div> <!-- end container -->
+</section> <!-- end buttons -->
+
+<section class="section"> <!-- List Your Event -->
+  <div class="container">
+    <div class="card blue darken-4 yellow-text center">
+      <span class="card-title">Click The <b>+</b> Button To List Your Event</span><a href="https://www.example.com" class="btn-floating halfway-fab waves-effect waves-light blue z-depth-5">
+      <i class="material-icons">add</i></a>
+    </div>
+  </div> <!-- end container -->
+</section> <!-- end list your event -->
+
+<section class="section center"> <!-- Keep In touch -->
+  <p class="flow-text">Keep in touch with what&#39s going on at Port Stephens FM.</p>
+  <p class="flow-text">If you would like to receive occasional Station Updates via your email account, please register below.</p>
+  <p class="flow-text">You can unsubscribe at any time in the future, should you choose.</p>
+</section>
+<div>
+  <p class="flow-text blue-text darken-4 center">Subscribe for Station Updates</p>
+</div>
+
+<section class="section"> <!-- subscription form -->
+  <div class="container">
+    <form name="sub">
+      <div class="input-field">
+        <input type="email" id="email" name="email" autocomplete="off" class="validate">
+        <label for="email" class="active">Email Address *</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="fname" name="fname" autocomplete="off">
+        <label for="fname" class="active">First Name</label>
+      </div>
+      <div class="input-field">
+        <input type="text" id="lname" name="lname" autocomplete="off">
+        <label for="lname" class="active">Last Name</label>
+      </div>
+      <div class="input-field">
+        <input type="number" id="dobMonth" name="dobMonth" min="1" max="12" autocomplete="off" class="birth_field">
+        <label for="dobMonth" class="active">Birthday (mm/dd)</label>
+        <input type="number" id="dobDay" name="dobDay" min="1" max="31" autocomplete="off" class="birth_field">
+        <label for="dobDay"></label>
+      </div>
+      <button type="submit" class="btn-large blue darken-4 yellow-text z-depth-5">Subscribe</button>
+    </form>
+  </div> <!-- end container -->
+</section>
+<!-- **** SPONSORS **** -->
+<div class="container">
+  <br>
+    <h4 class="center"><b>Our Sponsors</b></h4><br>
+    <div class="row">
+        <div class="col s12 m4"> <!-- sponsor icons -->
+            <a href="https://www.example.com/">
+                <img src="img/fake_sponsors/w_m_computer.png" width="100%" height="100%" alt="Willie Makit Computer logo">
+            </a>
+        </div>
+        <div class="col s12 m4"> <!-- sponsor icons -->
+            <a href="https://www.example.com/">
+            <img src="img/fake_sponsors/lets_go_1.png" width="100%" height="100%" alt="Lets Go Transport logo">
+            </a>
+        </div>
+        <div class="col s12 m4"> <!-- sponsor icons -->
+            <a href="https://www.example.com/">
+                <img src="img/fake_sponsors/louies.png" width="100%" height="100%" alt="Louies Limos logo">
+            </a>
+        </div>
+    </div> <!-- end row -->
+<h4 class="center blue-text text-darken-4">Other Valued Sponsors</h4>
+    <div class="row">
+      <div class="col s12 m4"> <!-- left half -->
+        <ul>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Williams Ltd.</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Hammes Antiques</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Wagner LLC</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">PaulM's Music Store</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Debra's Deli</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Burns Ltd.</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Iccy Ice Cream</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Up Hill Roller Skates</h6></a>
+          </li>
+        </ul>
+      </div> <!-- end left -->
+      <div class="col s12 m4">
+        <!-- centre -->
+      </div>
+      <div class="col s12 m4"> <!-- right -->
+        <ul>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">The Little Ship Tavern</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Butler-Bel</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Betty's Bagels</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Allan Automotive</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Crumby Crumpets</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Outer Limits Tours</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Edible Coffee</h6></a>
+          </li>
+          <li>
+            <i class="material-icons left blue-text">list</i>
+            <a href="https://www.example.com/"><h6 class="flow-text">Filbert's Fondue</h6></a>
+          </li>
+        </ul>
+      </div> <!-- end right half -->
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+
+<!-- **** CONTACTS **** -->
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <br>
+      <a href="https://www.example.com" class="waves-effect waves-light btn btn-large blue darken-4 yellow-text z-depth-5"><h5>Contact Us</h5></a>
+    </div>
+  </div> <!-- end row -->
+    <div class="row"> 
+        <!-- <div class="flow-text blue yellow-text center z-depth-5">Contact Us</div> -->
+        <div class="col s12 m6">
+          <ul>
+            <i class="material-icons left blue-text">phone</i>
+            <li class="collection-item "><h5>Phone: (02)4984 6666</h5></li>
+          </ul>
+          <ul>
+            <br>
+            <i class="material-icons left blue-text">email</i>
+            <li class="collection-item"><a href="mailto:admin@psrfm.org.au"><h5 class="black-text">Email: admin@psrfm.org.au</h5></a></li>
+          </ul>
+          <ul>
+            <br>
+            <!-- <img src="img/contact_page/facebook_icon.png" alt="facebook icon"> -->
+            <li class="collection-item"><a href="https://www.facebook.com/PortStephensFM100.9" target="_blank" rel="noopener noreferrer"><h5 class="black-text">Facebook: PortStephensFM100.9</h5></a></li>
+          </ul>
+        </div>
+        <div class="col s12 m6">
+          <ul>
+            <i class="material-icons left blue-text">location_on</i>
+            <li class="collection-item "><h5>Studio Address:</h5>
+              <h5>Tomaree Community Centre</h5>
+              <h5>7 Community Close Salamander Bay, NSW 2317</h5>
+            </li>
+          </ul>
+          <ul>
+            <br>
+            <i class="material-icons left blue-text">signpost</i>
+            <li class="collection-item "><h5>Postal Address:</h5>
+              <h5>PO Box 22</h5>
+              <h5>Salamander Bay, NSW 2317</h5>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- end contact details row -->
+</div>
+
+<!-- <div id="append_spon"></div>
+<div id="append_cont"></div> -->
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+      // Init navbar-fixed
+      $(".dropdown-trigger").dropdown({hover: true, constrainWidth: false});
+      // Init sidenav
+      $('.button-collapse').sideNav();
+      // Init tooltip
+      $('.tooltipped').tooltip();
+      // Init carousel
+      $('#demo-carousel-content').carousel({fullWidth:true});
+
+      // Set individual image heights
+      $('.carousel-item img').each(function() {
+      var img = $(this);
+      var imgContainer = img.parent(); // Get the image container
+
+      // Load the image and set the container height once loaded
+      img.on('load', function() {
+      imgContainer.height(img.height());
+    });
+  });
+      setInterval(function() {
+      $('#demo-carousel-content').carousel('next');
+    }, 2000);
+    
+      // get the template pages
+//       async function fetchAndAppendContent() {
+//       try {
+//         // Fetch content for #append_cont first
+//         const responseCont = await fetch('templates/contacts_temp.html');
+//         if (!responseCont.ok) {
+//         throw new Error(`Error fetching contacts template: ${responseCont.status}`);
+//     }
+//         const contactsData = await responseCont.text();
+
+//         // Fetch content for #append_spon next
+//         const responseSpon = await fetch('templates/sponsor_temp.html');
+//         if (!responseSpon.ok) {
+//         throw new Error(`Error fetching sponsor template: ${responseSpon.status}`);
+//     }
+//         const sponsorData = await responseSpon.text();
+
+//         // Update elements with the fetched content
+//         document.querySelector('#append_cont').innerHTML = contactsData;
+//         document.querySelector('#append_spon').innerHTML = sponsorData;
+//     } catch (error) {
+//         console.error("Error during fetching or appending content:", error);
+//   }
+// }
+
+// fetchAndAppendContent();
+
+  });
+  </script>
+</body>
+
+</html>
